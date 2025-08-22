@@ -3,19 +3,26 @@
 
 /* Color palette */
 :root {
-  /* TODO */
+  --white: #FDFBEE;
+  --blue: #57B4BA;
+  --green: #015551;
+  --red: #FE4F2D;
 }
 
 body {
   font-family: "Faculty Glyphic", sans-serif !important;
 }
 
-body.dark, body.accessible {
-  /* TODO */
+body.light {
+  background-color: var(--white) !important;
 }
 
-body.light {
-  /* TODO */
+h1, h2, h3 {
+  color: var(--red) !important;
+}
+
+a {
+  color: var(--blue) !important;
 }
 
 /* Set Username Font */
