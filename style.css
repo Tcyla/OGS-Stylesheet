@@ -1,9 +1,25 @@
 /* Font imports */
-@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Faculty+Glyphic&display=swap');
 
+/* Color palette */
+:root {
+  /* TODO */
+}
+
+body {
+  font-family: "Faculty Glyphic", sans-serif !important;
+}
+
+body.dark, body.accessible {
+  /* TODO */
+}
+
+body.light {
+  /* TODO */
+}
 
 /* Set Username Font */
-.Player-username {
+.profile-card .Player-username {
   font-family: "Ballet", cursive !important;
   font-optical-sizing: auto !important;
   font-weight: 400 !important;
