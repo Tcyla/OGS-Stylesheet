@@ -1,0 +1,11 @@
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+
+
+/* Set Username Font */
+.Player-username {
+  font-family: "Ballet", cursive !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
