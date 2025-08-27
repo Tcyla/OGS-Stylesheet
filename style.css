@@ -11,6 +11,7 @@
 
 body {
   font-family: "Faculty Glyphic", sans-serif !important;
+  background-image: url("https://apod.nasa.gov/apod/image/2508/MeteorPleiades_Alqasimi_1677.jpg");
 }
 
 body.light {
